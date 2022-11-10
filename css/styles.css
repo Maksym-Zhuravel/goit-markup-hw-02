@@ -1,0 +1,133 @@
+:root {
+    --heder-color: #000000;
+    --text-color: #757575;
+    --main-color: #FFFFFF;
+    --logo-color: #2196F3;
+}
+
+body{
+ 
+}
+
+ul{
+    list-style: none;
+}
+
+/* Header */
+
+.logo-header, :focus{
+    color: var(--heder-color);
+    font-style: normal;
+}
+.link-header{
+    color: var(--logo-color);
+}
+
+.header-list{
+    color: var(--heder-color);
+    font-style: normal;
+}
+.header-list:hover, :focus{
+    color: var(--logo-color);
+}
+
+.contact-link{
+color: var(--text-color);
+font-style: normal;
+}
+
+.contact-link:hover,
+:focus {
+    color: var(--logo-color);
+}
+
+/* MAIN SECTION */
+   
+     /* Hero */
+
+.hero-title{
+    color: var(--main-color);
+}
+.hero-btn{
+    color: var(--main-color);
+    background-color: var(--text-color);
+    border: 0;
+}
+.hero-btn:hover,:focus{
+    color: var(--main-color);
+    background-color: var(--logo-color);
+    cursor: pointer;
+}
+
+/* Company's softskills */
+
+.features-hidden{
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+    
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+.features-title{
+    color: var(--heder-color);
+}
+.features-text{
+    color: var(--text-color);
+}
+
+/* Company's activity */
+
+.activiity-title{
+    color: var(--heder-color);
+}
+
+/* Company's team */
+
+.team-title{
+    color: var(--heder-color);
+}
+.team-member{
+    color: var(--heder-color);
+}
+.team-role{
+    color: var(--text-color);
+}
+
+/* Footer */
+
+.logo-footer{
+    color: var(--logo-color);
+}
+.link-footer{
+    color: var(--main-color);
+}
+
+/* Contacts */
+
+.footer{
+    background-color: #000000;
+}
+
+.address-map{
+    color: var(--main-color);
+    font-style: normal;
+}
+.address-map:hover,:focus{
+    color: var(--logo-color);
+}
+
+.address-link{
+    color: var(--text-color);
+    font-style: normal;
+}
+.address-link:hover,
+:focus {
+    color: var(--logo-color);
+}
