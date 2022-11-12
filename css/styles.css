@@ -1,12 +1,14 @@
 :root {
     --header-color: #000000;
+    --font-color: #212121
     --text-color: #757575;
     --main-color: #FFFFFF;
     --logo-color: #2196F3;
+    --footer-color: #2F303A;
 }
 
 body{
-  color: var(--header-color);
+  color: var(--font-color);
   background-color: var(--main-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -33,7 +35,7 @@ body{
 }
 
 .header-nav .header-link{
-    color: var(--header-color);
+    color: var(--font-color);
     font-style: normal;
     text-decoration: none;
     font-weight: 500;
@@ -65,8 +67,12 @@ letter-spacing: 0.02em;
    
      /* Hero */
 
+.hero-section{
+    background-color: var(--footer-color);
+}
+
 .hero-title{
-    /* color: var(--main-color); - temporalily comment */
+    color: var(--main-color);
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -77,7 +83,7 @@ letter-spacing: 0.02em;
 }
 .hero-btn{
     color: var(--main-color);
-    background-color: var(--text-color);
+    background-color: var(--logo-color);
     border: 0;
     font-style: normal;
     font-weight: 700;
@@ -87,8 +93,8 @@ letter-spacing: 0.02em;
 }
 .hero-btn:hover,
 .hero-btn:focus{
-    color: var(--main-color);
-    background-color: var(--logo-color);
+    color: var(--font-color);
+    background-color: var(--main-color);
     cursor: pointer;
 }
 
@@ -96,37 +102,73 @@ letter-spacing: 0.02em;
 
 .features-hidden{
     position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
     
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.features .features-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14 
+    text-transform:
 }
 
 
 .features-text{
     color: var(--text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7px;
 }
 
 /* Company's activity */
 
+.activity-title{
+    color: var(--font-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
 
 
 
 /* Company's team */
-.team-role{
-    color: var(--text-color);
+
+.team .team-title{
+    color: var(--font-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
 }
 
+.team .team-role{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team .team-member{
+    color: var(--font-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19px;
+}
 /* FOOTER */
 
 .footer {
-    background-color: #000000;
+    background-color: var(--footer-color);
 }
 
 
@@ -154,7 +196,7 @@ letter-spacing: 0.02em;
 }
 
 .address .address-link{
-    color: var(--text-color);
+    color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     text-decoration: none;
 }
