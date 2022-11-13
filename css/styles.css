@@ -5,11 +5,12 @@
     --main-color: #FFFFFF;
     --logo-color: #2196F3;
     --footer-color: #2F303A;
+    --body-background: #F5F5F5;
 }
 
 body{
   color: var(--font-color);
-  background-color: var(--main-color);
+  background-color: var(--body-background);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -42,6 +43,10 @@ body{
 }
 .header-link:hover, 
 .header-link:focus{
+    color: var(--logo-color);
+}
+
+.header-nav .current{
     color: var(--logo-color);
 }
 
