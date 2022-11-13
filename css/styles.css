@@ -1,6 +1,6 @@
 :root {
     --header-color: #000000;
-    --font-color: #212121
+    --font-color: #212121;
     --text-color: #757575;
     --main-color: #FFFFFF;
     --logo-color: #2196F3;
@@ -22,10 +22,8 @@ body{
 
 .logo{
     color: var(--header-color);
-    font-style: normal;
     text-decoration: none;
     font-family: Raleway;
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
       
@@ -36,7 +34,6 @@ body{
 
 .header-nav .header-link{
     color: var(--font-color);
-    font-style: normal;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -73,7 +70,6 @@ letter-spacing: 0.02em;
 
 .hero-title{
     color: var(--main-color);
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -85,7 +81,6 @@ letter-spacing: 0.02em;
     color: var(--main-color);
     background-color: var(--logo-color);
     border: 0;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.90;
@@ -115,18 +110,14 @@ letter-spacing: 0.02em;
 }
 
 .features .features-title{
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
-    line-height: 1.14 
-    text-transform:
+    line-height: 1.14; 
+    text-transform: uppercase;
 }
 
 
 .features-text{
     color: var(--text-color);
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7px;
 }
@@ -135,27 +126,21 @@ letter-spacing: 0.02em;
 
 .activity-title{
     color: var(--font-color);
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
 }
-
 
 
 /* Company's team */
 
 .team .team-title{
     color: var(--font-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
 }
 
 .team .team-role{
     color: var(--text-color);
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.19;
 }
 
@@ -176,8 +161,6 @@ letter-spacing: 0.02em;
     color: var(--main-color);
     text-decoration: none;
     font-family: Raleway;
-    font-style: normal;
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
 }
