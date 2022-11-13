@@ -2,7 +2,6 @@
     --main-color: #212121;
     --second-color: #757575;
     --accent-color: #2196F3;
-    --back-color: #F5F4FA;
     --back2-color : #FFFFFF;
     --footer-color : #2F303A;
 }
@@ -20,10 +19,8 @@ body{
 
 .logo {
     color: var(--main-color);
-    font-style: normal;
     text-decoration: none;
     font-family: Raleway;
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
 }
@@ -34,7 +31,6 @@ body{
 
 .header-nav .header-link {
     color: var(--main-color);
-    font-style: normal;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -80,12 +76,10 @@ body{
 
 .buttons .buttons-list .buttons-link{
     color: var(--main-color);
-    background-color: var(--back-color);
+    background-color: var(--back2-color);
     border: 0;
     cursor: pointer;
     height: 26px;
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.62px;
 }
@@ -102,7 +96,7 @@ body{
     left: 215px;
     top: 262px;
     box-sizing: border-box;
-    background: #FFFFFF;
+    background: var(--back2-color);
     border: 1px solid #EEEEEE;
 }
 
@@ -111,8 +105,6 @@ body{
     height: 36px;
     left: 239px;
     top: 576px;
-    font-style: normal;
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -121,11 +113,7 @@ body{
 
 .portfolio-text{
     color: var(--second-color);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.9; 
-    
+    line-height: 1.9;    
 }
 /* FOOTER */
 
@@ -138,8 +126,6 @@ body{
     color: var(--back2-color);
     text-decoration: none;
     font-family: Raleway;
-    font-style: normal;
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
 }
