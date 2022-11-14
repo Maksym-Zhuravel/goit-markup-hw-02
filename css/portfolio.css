@@ -4,12 +4,11 @@
     --accent-color: #2196F3;
     --back2-color : #FFFFFF;
     --footer-color : #2F303A;
-    --body-background: #F5F5F5;
 }
 
 body{
     color: var(--main-color);
-    background-color: var(--body-background);
+    background-color: var(--back2-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
