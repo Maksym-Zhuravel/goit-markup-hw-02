@@ -4,7 +4,8 @@
     --accent-color: #2196F3;
     --back2-color : #FFFFFF;
     --footer-color : #2F303A;
-}
+    --button-color: #F5F4FA;
+}   
 
 body{
     color: var(--main-color);
@@ -81,7 +82,7 @@ body{
 
 .buttons .buttons-list .buttons-link{
     color: var(--main-color);
-    background-color: var(--back2-color);
+    background-color: var(--button-color);
     border: 0;
     cursor: pointer;
     height: 26px;
